@@ -1,32 +1,30 @@
 import React from 'react'
-import './HeroSection.css';
+import './Profile.css';
 import {Button} from './Button';
 import '../App.css';
 
-function HeroSection() {
+function Profile() {
     return (
       <div className='hero-container'>
-        <h1>This is the future.</h1>
-        <p>Miss meeting friends in class?</p>
+        <h1>Billy Joe</h1>
+        <p>Interests:</p>
+        <b>Basketball, Volleyball, Movies</b>
+        <p>Strengths:</p>
+        <b>Turing Machine, HashMaps</b>
+        <p>Weaknesses:</p>
+        <b>Huffman Coding</b>
         <div className='hero-btns'>
-          <Button
-            className='btns'
-            buttonStyle='btn--outline'
-            buttonSize='btn--large'
-          >
-            Log In
-          </Button>
           <Button
             className='btns'
             buttonStyle='btn--primary'
             buttonSize='btn--large'
             onClick={console.log('hey')}
           >
-            Sign Up 
+            Edit
           </Button>
         </div>
       </div>
     );
   }
 
-export default HeroSection;
+export default Profile;

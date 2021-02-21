@@ -1,4 +1,12 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import '../../App.css'
+import HeroSection from '../HeroSection'
 
-function 
+function Home () {
+    return (
+        <>
+            <HeroSection />
+        </>
+    )
+}
+export default Home;

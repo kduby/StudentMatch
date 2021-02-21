@@ -1,20 +1,20 @@
 import React from 'react'
-import './HeroSection.css';
+import './ClassMates.css';
 import {Button} from './Button';
 import '../App.css';
 
-function HeroSection() {
+function ClassMates() {
     return (
       <div className='hero-container'>
-        <h1>This is the future.</h1>
-        <p>Miss meeting friends in class?</p>
+        <h1>CSE 100: Advanced Data Structures</h1>
+
         <div className='hero-btns'>
-          <Button
+        <Button
             className='btns'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
           >
-            Log In
+            New Class
           </Button>
           <Button
             className='btns'
@@ -22,11 +22,11 @@ function HeroSection() {
             buttonSize='btn--large'
             onClick={console.log('hey')}
           >
-            Sign Up 
+            Match!
           </Button>
         </div>
       </div>
     );
   }
 
-export default HeroSection;
+export default ClassMates;

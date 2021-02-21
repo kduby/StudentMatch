@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../App.css'
-import Profile from '../Profile'
+import Chat from '../Chat'
 
-function Home () {
+function Messages () {
     return (
         <>
-           <Profile/>
+           <Chat/>
         </>
     )
 }
-export default Home;
+export default Messages;
