@@ -9,7 +9,7 @@
 ## How we built it
 
 ## Challenges we ran into
-![alt text](MainPage.png)
+![alt text](/Users/kevinwong/Desktop/MainPage.png)
 
 ## Accomplishments that we're proud of
 
